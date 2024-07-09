@@ -39,6 +39,7 @@ body {
   /*background: color image repeat position / size */
 
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -50,7 +51,7 @@ body * {
 #container {
   /*Caixa container*/
 
-  width: 100%;   /*largura da caixa container */
+  width: 100%; /*largura da caixa container */
   max-width: 588px;
   height: 712px; /*Altura da caixa container*/
   /* border: 1px solid red; /*propriedade borda podem ter 3 valores....somente para estudo*/
@@ -180,4 +181,15 @@ footer {
   text-align: center;
   font-size: 14px;
   color: var(--text-color);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/assets/bg-desktop-light.jpg);
+  }
 }
