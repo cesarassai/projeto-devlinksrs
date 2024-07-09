@@ -50,7 +50,8 @@ body * {
 #container {
   /*Caixa container*/
 
-  width: 360px; /*largura da caixa container */
+  width: 100%;   /*largura da caixa container */
+  max-width: 588px;
   height: 712px; /*Altura da caixa container*/
   /* border: 1px solid red; /*propriedade borda podem ter 3 valores....somente para estudo*/
   /*margin: auto; Margem centraliza automaticamente a caixa na pagina - substituido pelo margin abaixo*/
